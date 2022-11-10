@@ -1,0 +1,90 @@
+.headerImage {
+    height: 100px;
+  }
+  
+  .headerItems {
+    margin-right: 40px;
+    font-family: 'Michroma', sans-serif;
+    font-family: 'Sora', sans-serif;
+  }
+  
+  .footerImage {
+    height: 70px;
+  }
+  
+  .headerTitle {
+    font-family: 'Michroma', sans-serif;
+    font-family: 'Sora', sans-serif;
+  }
+  
+  body {
+    padding: 150px 100px 20px 100px;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #f1ba21;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #f6c845;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+    }
+}
+
+
+.instagram-media {
+    justify-content: center;
+}
+
+div > div > h2 {
+  font-family: 'Michroma', sans-serif;
+  font-family: 'Sora', sans-serif;
+}
+
+div > div > p {
+  font-family: 'Michroma', sans-serif;
+  font-family: 'Sora', sans-serif;
+}

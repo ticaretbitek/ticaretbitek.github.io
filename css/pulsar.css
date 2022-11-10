@@ -1,0 +1,54 @@
+.headerImage {
+    height: 100px;
+  }
+  
+  .headerItems {
+    margin-right: 40px;
+    font-family: 'Michroma', sans-serif;
+    font-family: 'Sora', sans-serif;
+  }
+  
+  .footerImage {
+    height: 70px;
+  }
+  
+  .headerTitle {
+    font-family: 'Michroma', sans-serif;
+    font-family: 'Sora', sans-serif;
+  }
+  
+  body {
+    padding: 150px 100px 20px 100px;
+}
+
+:root {
+    --jumbotron-padding-y: 3rem;
+  }
+  
+  .jumbotron {
+    padding-top: var(--jumbotron-padding-y);
+    padding-bottom: var(--jumbotron-padding-y);
+    margin-bottom: 0;
+    background-color: #fff;
+  }
+  @media (min-width: 768px) {
+    .jumbotron {
+      padding-top: calc(var(--jumbotron-padding-y) * 2);
+      padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+    }
+  }
+  
+  .jumbotron p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .jumbotron .container {
+    max-width: 40rem;
+  }
+  
+  .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.jumbotron-heading {
+    font-family: 'Michroma', sans-serif;
+    font-family: 'Sora', sans-serif;
+}

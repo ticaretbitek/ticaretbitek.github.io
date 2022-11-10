@@ -1,0 +1,40 @@
+.headerImage {
+    height: 100px;
+  }
+  
+  .headerItems {
+    margin-right: 40px;
+    font-family: 'Michroma', sans-serif;
+    font-family: 'Sora', sans-serif;
+  }
+  
+  .footerImage {
+    height: 70px;
+  }
+  
+  .headerTitle {
+    font-family: 'Michroma', sans-serif;
+    font-family: 'Sora', sans-serif;
+  }
+  
+  body {
+    padding: 150px 100px 20px 100px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 3);
+  margin: 10px;
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+div > h1 {
+  font-family: 'Michroma', sans-serif;
+  font-family: 'Sora', sans-serif;
+}

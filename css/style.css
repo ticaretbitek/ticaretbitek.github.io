@@ -1,0 +1,22 @@
+.headerImage {
+  height: 100px;
+}
+
+.headerItems {
+  margin-right: 40px;
+  font-family: 'Michroma', sans-serif;
+  font-family: 'Sora', sans-serif;
+}
+
+.footerImage {
+  height: 70px;
+}
+
+.headerTitle {
+  font-family: 'Michroma', sans-serif;
+  font-family: 'Sora', sans-serif;
+}
+
+body {
+  padding: 150px 100px 20px 100px;
+}
